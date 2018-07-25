@@ -171,9 +171,6 @@ def main():
         except Exception as  e:
             print(e)
             errorl.append(dataInvalid['orgName'])
-            print(findl)
-            print(nofind)
-            print(errorl)
 
     writeExcelPandas(findl, 'excelData/find.xls')
     writeExcelPandas(nofind, 'excelData/nofind.xls')
